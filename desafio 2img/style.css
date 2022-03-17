@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+ background-color: gray;
+}
+body>h1{
+    font-size: 50px;
+}
+body>p{
+    
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}

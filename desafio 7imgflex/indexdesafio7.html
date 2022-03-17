@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        
+            <h1>Imagem Flexível</h1>
+            <p>Você está vendo uma imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F92F;</p>
+            
+            <picture>
+                
+                <source media="(max-width: 764px)" srcset="img/paisagem-p.png" type="image/png" alt="imagem pequena">
+                
+                <source media="(max-width: 1224px)" srcset="img/paisagem-m.png" type="image/png" alt="imagem media">
+        
+                <img src="img/paisagem-g.png" alt="imagem grande">
+            </picture>
+        
+    </main>
+        <a href="../../html-css/Exercicios/ex011/index.html">(<<<>>>)</a>
+   
+    
+</body>
+</html>

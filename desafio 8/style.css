@@ -1,0 +1,31 @@
+@charset "UTF-8";
+ body{
+     background-color: gray;
+     height: 600px;
+ }
+ h1{
+     font-size: 2.5em;
+ }
+
+ p{
+     font-size: 1.1em;
+ }
+ a{
+     font-size: 1.1em;
+     text-decoration:wavy;
+
+
+     color: rgb(255, 255, 255);
+     text-shadow: 2px 2px 3px rgb(66, 62, 62);
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ a:hover{
+     transition-duration: 0.5s;
+     animation-iteration-count: infinite;
+
+ }
+
+ main{
+     
+
+ }
