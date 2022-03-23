@@ -18,6 +18,8 @@ font-family: var(--fonte1);
 
 body{
     background-color: gray;
+    margin: 0px;
+    
 }
 
 header{
@@ -61,6 +63,7 @@ header>p>a:hover{
 }
 
 main{
+    margin-right: 64px;
     
 }
 
@@ -123,15 +126,24 @@ section.imagem>p{
     color: white;
     background-color: rgba(0, 0, 0, 0.384);
     display: inline-block;
-    padding: 8px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 8px 8px;
+    margin: 30px 13px;
+    
+}
+
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
+}
+
+.normal{
+    margin-left: 10px;
 }
 
 #img1{
     background-image: url(../imagens/background001.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right center;
 
 }
 
